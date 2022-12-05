@@ -2,3 +2,6 @@
 
 *.tiff
 *.csv
+
+# cache files
+__pycache__/
