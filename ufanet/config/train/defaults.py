@@ -26,7 +26,7 @@ DEPTH = 3
 
 # Training Configuration
 DEVICE = "cuda:0" if is_available() else "cpu"
-NUM_EPOCHS = 30
+NUM_EPOCHS = 2
 LEARNING_RATE = 1e-4
 BETAS = (0.99, 0.999)
 TRACK_RESULT_COUNTER = 25

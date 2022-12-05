@@ -2,6 +2,13 @@
 
 *.tiff
 *.csv
+*.db
+*.zip
+*.png
+*.jpg
 
 # cache files
 __pycache__/
+
+# model weights
+*.pt

@@ -18,7 +18,7 @@ DROP_LAST = True
 USE_ATTN = False
 USE_FAM = True
 BASE_FILTER_DIM = 32
-DEPTH = 4
+DEPTH = 3
 CHECKPOINT_PATH = "results/best_model.pt"
 
 # Evaluation Configuration

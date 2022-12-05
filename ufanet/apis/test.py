@@ -1,8 +1,8 @@
 from termcolor import cprint
-from uanet.training.prediction import predict
-from uanet.utils.training import create_data_loader
-from uanet.configs.evaluation import defaults as CFG
-from uanet.training.load_checkpoint import load_checkpoint
+from ..training.predictor import predict
+from ..utils.training import create_data_loader
+from ..config.test import defaults as CFG
+from ..training.load_checkpoint import load_checkpoint
 
 
 def run_scheduler(config):
