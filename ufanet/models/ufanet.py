@@ -106,7 +106,7 @@ class UFANet(nn.Module):
 
 
 def test():
-    model = UANet(attn=False, fam=True, depth=3)
+    model = UFANet(attn=False, fam=True, depth=3)
     rand_data = torch.rand(5, 1, 300, 300)
     print(model(rand_data).shape)
     summary(model, rand_data.shape[1:], device="cpu")
